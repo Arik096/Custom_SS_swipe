@@ -1,0 +1,126 @@
+<div>
+  <style>
+    .custom {
+      margin: 0;
+      padding: 0px;
+      box-sizing: border-box;
+    }
+
+    .custom-body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: rgb(255, 255, 255);
+    }
+
+    .carousel {
+      position: relative;
+      height: 500px;
+      perspective: 10500px;
+    }
+
+    .carousel .carousel-item {
+      width: 250px;
+    }
+
+    .carousel .carousel-item img {
+      max-width: 280px;
+      height: 575px;
+      transform: translateY(-185px);
+    }
+
+    #phn {
+      max-width: 300px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1000;
+      pointer-events: none;
+    }
+
+    .carousel {
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+      height: 700px;
+      -webkit-perspective: 500px;
+      perspective: 500px;
+      -webkit-transform-style: preserve-3d;
+      transform-style: preserve-3d;
+      -webkit-transform-origin: 0% 50%;
+      transform-origin: 0% 50%;
+    }
+
+    .carousel .carousel-item {
+      visibility: hidden;
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      top: 0;
+      left: -40px;
+    }
+  </style>
+  <div class="custom">
+    <div class="custom-body">
+      <div class="carousel">
+        <div class="carousel-item">
+          <img src="https://shujog.isocial.com.bd/wp-content/uploads/2021/01/Final-Shujog-App-UI-Design07-01.png"
+            alt="1" />
+        </div>
+        <div class="carousel-item">
+          <img src="https://shujog.isocial.com.bd/wp-content/uploads/2021/01/Final-Shujog-App-UI-Design07-02.png"
+            alt="2" />
+        </div>
+        <div class="carousel-item">
+          <img src="https://shujog.isocial.com.bd/wp-content/uploads/2021/01/Final-Shujog-App-UI-Design07-04.png"
+            alt="3" />
+        </div>
+        <div class="carousel-item">
+          <img src="https://shujog.isocial.com.bd/wp-content/uploads/2021/01/Final-Shujog-App-UI-Design07-05.png"
+            alt="4" />
+        </div>
+        <div class="carousel-item">
+          <img src="https://shujog.isocial.com.bd/wp-content/uploads/2021/01/Final-Shujog-App-UI-Design07-06.png"
+            alt="5" />
+        </div>
+        <div class="carousel-item">
+          <img src="https://shujog.isocial.com.bd/wp-content/uploads/2021/01/Final-Shujog-App-UI-Design07-07.png"
+            alt="6" />
+        </div>
+        <div class="carousel-item">
+          <img src="https://shujog.isocial.com.bd/wp-content/uploads/2021/01/Final-Shujog-App-UI-Design07-15.png"
+            alt="7" />
+        </div>
+        <div class="carousel-item">
+          <img src="https://shujog.isocial.com.bd/wp-content/uploads/2021/01/Final-Shujog-App-UI-Design07-17.png"
+            alt="8" />
+        </div>
+        <div class="carousel-item">
+          <img src="https://shujog.isocial.com.bd/wp-content/uploads/2021/01/Final-Shujog-App-UI-Design07-26.png"
+            alt="9" />
+        </div>
+        <img id="phn" src="https://shujog.isocial.com.bd/wp-content/uploads/2021/01/phn.png" alt="phn" />
+  </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script type="text/javascript">
+        $(document).ready(function () {
+          $(".carousel").carousel();
+        });
+      </script>
+    </div>
+  </div>
+</div>
+
+
+
+<div style="display: flex;justify-content: center;align-items: center;margin: 0;padding: 0px;box-sizing: border-box;">
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+  <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_kolvD6.json" style="width: 100px; height: 100px;"
+    background="transparent" speed="2" loop autoplay></lottie-player>
+
+
+</div>
